@@ -1,0 +1,28 @@
+.logout{
+  padding-left: 0;
+  margin-top: 5px;
+}
+
+
+.user-name{
+  padding-top: 15px;
+  a{
+    padding: 0 !important;
+  }
+}
+
+.btn-sign-in{
+  margin-top: 4px;
+  
+  &:hover{
+    background-color:darken(#ac2925, 20%) !important;
+  }
+}
+
+.btn-log-out{
+  
+  &:hover{
+    background-color:darken(#ac2925, 20%) !important;
+  }
+  
+}
