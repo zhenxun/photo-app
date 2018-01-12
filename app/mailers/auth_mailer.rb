@@ -6,8 +6,7 @@ class AuthMailer < ApplicationMailer
   #   en.auth_mailer.new_auth.subject
   #
   def new_auth(user)
-    @greeting = "Hi"
-
-    mail to: "to@example.org"
+    @user = user
+    #mail to: @user.email, subject: "Your account validation email"
   end
 end
