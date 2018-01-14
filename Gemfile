@@ -7,8 +7,17 @@ gem 'rails', '4.2.5'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+# figaro is the env setting pagkage
 gem 'figaro'
+# stripe is thrid party payment pagkage
 gem 'stripe'
+
+#Image upload 
+gem 'carrierwave'
+#Image resizer
+gem 'mini_magick'
+#fog is the Ruby cloud services library
+gem 'fog'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
